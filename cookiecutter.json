@@ -1,0 +1,8 @@
+{
+  "templates": {
+    "base_python": {
+      "description": "Base Python application",
+      "path": "./base_python"
+    }
+  }
+}

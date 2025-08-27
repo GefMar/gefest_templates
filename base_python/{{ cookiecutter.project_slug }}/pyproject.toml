@@ -1,0 +1,15 @@
+[project]
+name = "{{ cookiecutter.project_slug }}"
+version = "{{ cookiecutter.first_version }}"
+description = "{{ cookiecutter.project_short_description }}"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "factory_boy==3.3.3",
+    "pre-commit>=4.3.0",
+    "pytest==8.3.4",
+    "pytest-asyncio==0.25.3",
+    "pytest-env==1.1.5",
+    "ruff>=0.12.10", ]
