@@ -1,6 +1,6 @@
 {
   "first_version": "0.1.0",
+  "package_name": "basic_python_project",
   "project_short_description": "Basic Python Project",
-  "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
-  "pypi_package_name": "basic_python_project"
+  "project_slug": "{{ cookiecutter.package_name.replace('-', '_') }}"
 }

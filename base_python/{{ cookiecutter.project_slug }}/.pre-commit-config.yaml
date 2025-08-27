@@ -6,10 +6,6 @@ repos:
     rev: v6.0.0
     hooks:
       - id: check-added-large-files
-      - id: pretty-format-json
-        args:
-          - "--indent=2"
-          - "--autofix"
       - id: check-json
       - id: check-yaml
       - id: check-toml
