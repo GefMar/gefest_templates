@@ -1,0 +1,6 @@
+{
+  "first_version": "0.1.0",
+  "package_name": "basic_fastapi_project",
+  "project_short_description": "Basic Fastapi Project",
+  "project_slug": "{{ cookiecutter.package_name.replace('-', '_') }}"
+}

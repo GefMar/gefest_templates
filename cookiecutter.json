@@ -1,5 +1,9 @@
 {
   "templates": {
+    "base_fastapi": {
+      "description": "Base FastApi application",
+      "path": "./base_fastapi"
+    },
     "base_python": {
       "description": "Base Python application",
       "path": "./base_python"
