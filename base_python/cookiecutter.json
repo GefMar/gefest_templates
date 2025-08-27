@@ -1,12 +1,4 @@
 {
-  "_copy_without_render": [
-    ".pre-commit-config.yaml",
-    "mypy.ini",
-    "ruff.toml",
-    "tests/conftest.py",
-    ".flake8",
-    ".gitignore"
-  ],
   "first_version": "0.1.0",
   "project_short_description": "Basic Python Project",
   "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
